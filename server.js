@@ -12,7 +12,7 @@ http.createServer(function (req, res) {
     fs.appendFile('log.txt',logText,((req,res)=>{
       console.log("log added successfully")
     }))
-    console.log(req.method)
+    console.log("req.method",req.method)
   }
   
   
